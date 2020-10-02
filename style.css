@@ -1,0 +1,24 @@
+div.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+button.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: 'background.jpg';
+}
+
+div.dashed {
+  border-style: dashed;
+}
+
+myfont {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 64px;
+}

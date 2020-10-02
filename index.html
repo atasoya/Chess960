@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The HTML5 Herald</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    body {
+      background-image: url('background.png');
+    }
+  </style>
+  <body>
+    <div class="dashed">
+      <center>
+        <myfont>Chess9600</myfont>
+      </center>
+    </div>
+    <div class="center">
+      <img id="0" src="r.png" alt="Index 0" />
+      <img id="1" src="kn.png" alt="Index 1" />
+      <img id="2" src="b.png" alt="Index 2" />
+      <img id="3" src="q.png" alt="Index 3" />
+      <img id="4" src="k.png" alt="Index 4" />
+      <img id="5" src="b.png" alt="Index 5" />
+      <img id="6" src="kn.png" alt="Index 6" />
+      <img id="7" src="r.png" alt="Index 7" />
+    </div>
+    <div class="center">
+      <button
+        type="button"
+        class="btn btn-outline-success btn-lg"
+        onclick="chess960()"
+      >
+        Generate
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
